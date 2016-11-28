@@ -45,7 +45,7 @@
  </target>
 
  <target name="copy-parameters" description="Copy parameters.yml file">
-  <exec executable="cp" failonerror="true">
+  <exec executable="cp " failonerror="true">
    <arg path="app/config/parameters.yml.dist" />
    <arg path="app/config/parameters.yml" />
   </exec>
