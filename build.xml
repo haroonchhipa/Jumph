@@ -63,7 +63,7 @@
  </target>
 
  <target name="bower" description="Installing bower dependencies">
-  <exec executable="bower" failonerror="true">
+  <exec executable="bower" failonerror="false">
    <arg value="install" />
   </exec>
  </target>
